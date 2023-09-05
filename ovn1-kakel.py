@@ -18,4 +18,4 @@ def grön_kakel_cirkel(sida):
     """Beräknar hur mycket grön färg som går åt på kaklet med gul cirkel"""
     return area_kvadrat(sida) - gul_kakel_cirkel(sida)
 
-print(f"Kvadrat med sidan 5: {area_kvadrat(5)}")
+print(f"En kakelplatta med sidan 10 cm behöver {gul_kakel_cirkel(10)} cm^2 gul färg och {grön_kakel_cirkel(10)} cm^2 grön färg.")
